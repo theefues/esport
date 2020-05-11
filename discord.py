@@ -63,7 +63,7 @@ async def lolranked(ctx, name):
 # List of commands
 @bot.command()
 async def commands(ctx):
-    await ctx.send("!hello, !hosok \{player_tag\}, !tagok !lolme !lolranked")
+    await ctx.send("!hello, !cocheroes \{player_tag\}, !cocmembers !lolme \{summoner_name\} !lolranked")
 
 # Owned CoC heroes 
 @bot.command()
